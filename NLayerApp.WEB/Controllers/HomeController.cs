@@ -12,7 +12,7 @@ namespace NLayerApp.WEB.Controllers
     {
         IOrderService orderService;
         public HomeController(IOrderService serv)
-        {
+        { 
             orderService = serv;
         }
         public ActionResult Index()
