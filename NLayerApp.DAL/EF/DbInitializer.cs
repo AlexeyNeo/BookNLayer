@@ -7,6 +7,6 @@ namespace NLayerApp.DAL.EF
 {
     public class DbInitializer : MigrateDatabaseToLatestVersion<MobileContext, Configuration>
     {
-       
+        
     }
 }
